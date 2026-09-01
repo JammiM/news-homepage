@@ -9,6 +9,8 @@ import PopularSection from "./components/PopularSection";
 import HeroArticle from "./components/HeroArticle";
 import NewsSection from "./components/NewsSection";
 
+import "./js/axeTestingHandler";
+
 function App() {
   const [count, setCount] = useState(0);
 
