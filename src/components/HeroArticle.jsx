@@ -7,7 +7,7 @@ function HeroArticle() {
   ).href;
 
   return (
-    <main>
+    <section className="hero-article">
       <figure>
         <img src={heroImageLgUrl} alt="Hero Article" />
       </figure>
@@ -16,7 +16,7 @@ function HeroArticle() {
       </header>
       <p>{heroArticleData.description}</p>
       <button>Read More</button>
-    </main>
+    </section>
   );
 }
 

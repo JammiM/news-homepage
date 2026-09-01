@@ -161,13 +161,15 @@ function App() {
         opportunities.
       </p> */}
 
-      <Navbar />
+      <main className="main-content">
+        <Navbar />
 
-      <HeroArticle />
+        <HeroArticle />
 
-      <NewsSection />
+        <NewsSection />
 
-      <PopularSection />
+        <PopularSection />
+      </main>
     </>
   );
 }
