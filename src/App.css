@@ -182,3 +182,37 @@
     border-right-color: var(--border);
   }
 } */
+
+.hero-article {
+  grid-area: hero;
+}
+
+.news-section {
+  grid-area: news;
+}
+
+.popular-section {
+  grid-area: popular;
+}
+
+.navbar {
+  grid-area: nav;
+}
+
+.main-content {
+  display: grid;
+  grid-template-areas:
+    "nav nav nav"
+    "hero hero news"
+    "hero hero news"
+    "popular popular popular";
+
+  @media (max-width: 899px) {
+    grid-template-rows: min-content min-content min-content min-content;
+    grid-template-areas:
+      "nav"
+      "hero"
+      "news"
+      "popular";
+  }
+}

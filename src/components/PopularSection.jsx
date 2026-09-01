@@ -1,5 +1,5 @@
 function PopularSection() {
-  return <section></section>;
+  return <section className="popular-section"></section>;
 }
 
 export default PopularSection;

@@ -3,7 +3,7 @@ import newArticleData from "../data/new-articles.json";
 
 function NewsSection() {
   return (
-    <aside>
+    <aside className="news-section">
       <header>
         <h2>New</h2>
       </header>
