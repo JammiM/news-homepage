@@ -1,8 +1,10 @@
+import mainLogo from "/src/assets/images/logo.svg";
+
 function Navbar() {
   return (
     <nav className="navbar">
       <div className="nav-brand">
-        <h1>News Homepage</h1>
+        <img src={mainLogo} alt="Logo" />
       </div>
       <ul className="nav-menu">
         <li>
