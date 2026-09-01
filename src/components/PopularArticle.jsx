@@ -1,5 +1,3 @@
-import React from "react";
-
 function PopularArticle() {
   return <div>PopularArticle</div>;
 }

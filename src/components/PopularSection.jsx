@@ -1,7 +1,5 @@
-import React from "react";
-
 function PopularSection() {
-  return <div>PopularSection</div>;
+  return <section></section>;
 }
 
 export default PopularSection;

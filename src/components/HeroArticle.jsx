@@ -1,4 +1,3 @@
-import React from "react";
 import heroArticleData from "../data/hero-data.json";
 
 function HeroArticle() {
