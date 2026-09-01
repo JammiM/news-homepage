@@ -4,6 +4,11 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "./assets/vite.svg";
 import "./App.css";
 
+import Navbar from "./components/Navbar";
+import PopularSection from "./components/PopularSection";
+import HeroArticle from "./components/HeroArticle";
+import NewsSection from "./components/NewsSection";
+
 function App() {
   const [count, setCount] = useState(0);
 
@@ -116,7 +121,7 @@ function App() {
       <div className="ticks"></div>
       <section id="spacer"></section> */}
 
-      <p> Home New Popular Trending Categories</p>
+      {/* <p> Home New Popular Trending Categories</p>
 
       <p>
         {" "}
@@ -152,7 +157,15 @@ function App() {
         {" "}
         03 The Growth of Gaming How the pandemic has sparked fresh
         opportunities.
-      </p>
+      </p> */}
+
+      <Navbar />
+
+      <HeroArticle />
+
+      <NewsSection />
+
+      <PopularSection />
     </>
   );
 }

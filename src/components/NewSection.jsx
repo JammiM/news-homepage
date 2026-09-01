@@ -1,7 +1,7 @@
 import React from "react";
 
-function NewSection() {
-  return <div>NewSection</div>;
+function NewsSection() {
+  return <div>NewsSection</div>;
 }
 
-export default NewSection;
+export default NewsSection;
